@@ -3,14 +3,18 @@
 #define WANTED_FREQ 1000000
 #define PERIOD 10000
 
-#include "interfaces/gpio.h"
+
 
 namespace miosix
 {
 
 	/**
 	 * 
-	 *	Class to control an HC-SR04 ultrasonic sensor
+	 *	Class to control an HC-SR04 ultrasonic sensor using TIM3.
+	 *	The sensor pins need to be connected as follows:
+	 *		
+	 *		-Trig connected to PC7;
+	 *		-Echo connected to PC6.
 	 * 
 	 */
 	class hcsr04
@@ -23,7 +27,7 @@ namespace miosix
 		private:
 		
 			hcsr04();
-			
+			unsigned int getPrescaler();
 			
 			static hcsr04* instance;
 			
