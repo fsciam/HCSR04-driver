@@ -10,6 +10,11 @@ The sensor HCSR04 is one of most used ultrasonic distance sensor in DIY project 
 \end{itemize}  
 The aim of this project is to develop a driver for \textit{Miosix} operating system to allow developers to interface easily with this sensor.
 \subsection{Summary of the work}
+The driver uses hardware timer input capture mode to convert sensor answer into number representing the distance. The work was divided in two main phases:
+\begin{enumerate}
+\item Understand how hardware timers work and how to use inpute capture to convert sensor answer;
+\item Actually implement the driver for \textit{Miosix} operating system.
+\end{enumerate}
 
 \pagebreak
 
@@ -42,6 +47,9 @@ The basic principle of work consist of these steps:
 pulse signal back;
 \item The module drive the ECHO pin to high level signal for as much microseconds as the time the sound wave has traveled. 
 \end{enumerate} 
+\subsection{Class design}
+\subsection{Class implementation}
+
 
 \section{Experimental evaluation}
 
