@@ -30,9 +30,8 @@ void __attribute__((used))  tim3impl()
 		waiting[0]->IRQwakeup();
 		if(waiting[0]->IRQgetPriority()>Thread::IRQgetCurrentThread()->IRQgetPriority())
 			Scheduler::IRQfindNextThread();
-		//Stop the 
+		//Stop the timer
 		TIM3->CR1=0; 
-		TIM3->CNT=0;
 		waiting[0]=0;	
     	}
     	 TIM3->SR=0; //Clear interrupt flag
@@ -56,9 +55,8 @@ void __attribute__((used))  tim4impl()
 		waiting[1]->IRQwakeup();
 		if(waiting[1]->IRQgetPriority()>Thread::IRQgetCurrentThread()->IRQgetPriority())
 			Scheduler::IRQfindNextThread();
-		//Stop the 
+		//Stop the timer
 		TIM4->CR1=0; 
-		TIM4->CNT=0;
 		waiting[1]=0;	
     	}
     	 TIM4->SR=0; //Clear interrupt flag
@@ -82,9 +80,8 @@ void __attribute__((used))  tim5impl()
 		waiting[2]->IRQwakeup();
 		if(waiting[2]->IRQgetPriority()>Thread::IRQgetCurrentThread()->IRQgetPriority())
 			Scheduler::IRQfindNextThread();
-		//Stop the 
+		//Stop the timer
 		TIM5->CR1=0; 
-		TIM5->CNT=0;
 		waiting[2]=0;	
     	}
     	 TIM5->SR=0; //Clear interrupt flag
