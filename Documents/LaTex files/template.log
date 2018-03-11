@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.9)  8 MAR 2018 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.9)  11 MAR 2018 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,45 +1116,52 @@ File: ./figures/raster/m120.png Graphic file (type png)
 Package pdftex.def Info: ./figures/raster/m120.png used on input line 200.
 (pdftex.def)             Requested size: 510.78412pt x 292.6235pt.
 
-<./figures/raster/m180.png, id=64, 864.831pt x 495.451pt>
+<./figures/raster/m150.png, id=64, 864.831pt x 495.451pt>
+File: ./figures/raster/m150.png Graphic file (type png)
+
+<use ./figures/raster/m150.png>
+Package pdftex.def Info: ./figures/raster/m150.png used on input line 203.
+(pdftex.def)             Requested size: 510.78412pt x 292.6235pt.
+ [10 <./figures/raster/m60.png> <./figures/raster/m80.png>] <./figures/raster/m
+180.png, id=70, 864.831pt x 495.451pt>
 File: ./figures/raster/m180.png Graphic file (type png)
 
 <use ./figures/raster/m180.png>
-Package pdftex.def Info: ./figures/raster/m180.png used on input line 203.
+Package pdftex.def Info: ./figures/raster/m180.png used on input line 206.
 (pdftex.def)             Requested size: 510.78412pt x 292.6235pt.
- [10 <./figures/raster/m60.png> <./figures/raster/m80.png>] <./figures/raster/m
-220.png, id=70, 864.831pt x 495.451pt>
+
+<./figures/raster/m220.png, id=71, 864.831pt x 495.451pt>
 File: ./figures/raster/m220.png Graphic file (type png)
 
 <use ./figures/raster/m220.png>
-Package pdftex.def Info: ./figures/raster/m220.png used on input line 206.
+Package pdftex.def Info: ./figures/raster/m220.png used on input line 209.
 (pdftex.def)             Requested size: 510.78412pt x 292.6235pt.
-
-<./figures/raster/m270.png, id=71, 810.77907pt x 464.4853pt>
+ [11 <./figures/raster/m120.png> <./figures/raster/m150.png>] <./figures/raster
+/m270.png, id=77, 810.77907pt x 464.4853pt>
 File: ./figures/raster/m270.png Graphic file (type png)
 
 <use ./figures/raster/m270.png>
-Package pdftex.def Info: ./figures/raster/m270.png used on input line 209.
+Package pdftex.def Info: ./figures/raster/m270.png used on input line 212.
 (pdftex.def)             Requested size: 510.78412pt x 292.62729pt.
- [11 <./figures/raster/m120.png> <./figures/raster/m180.png>] <./figures/raster
-/m390.png, id=77, 810.77907pt x 464.4853pt>
+
+<./figures/raster/m390.png, id=78, 810.77907pt x 464.4853pt>
 File: ./figures/raster/m390.png Graphic file (type png)
 
 <use ./figures/raster/m390.png>
-Package pdftex.def Info: ./figures/raster/m390.png used on input line 212.
+Package pdftex.def Info: ./figures/raster/m390.png used on input line 215.
 (pdftex.def)             Requested size: 510.78412pt x 292.62729pt.
- [12 <./figures/raster/m220.png> <./figures/raster/m270.png (PNG copy)>] [13 <.
-/figures/raster/m390.png (PNG copy)>]) [14]
-(./template.bbl) [15] (./template.aux)
+ [12 <./figures/raster/m180.png> <./figures/raster/m220.png>] [13 <./figures/ra
+ster/m270.png (PNG copy)> <./figures/raster/m390.png (PNG copy)>]) [14] (./temp
+late.bbl) [15] (./template.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11117 strings out of 494910
- 166976 string characters out of 6179836
+ 11122 strings out of 494910
+ 167103 string characters out of 6179836
  440331 words of memory out of 5000000
- 14145 multiletter control sequences out of 15000+600000
+ 14149 multiletter control sequences out of 15000+600000
  59023 words of font info for 107 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  50i,8n,97p,475b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1168,10 +1175,10 @@ er/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-ch
 r7y.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-c
 hr8t.pfb>
-Output written on template.pdf (15 pages, 6958886 bytes).
+Output written on template.pdf (15 pages, 7035559 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
+ 252 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
